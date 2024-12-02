@@ -24,6 +24,25 @@ sudo apt install python3
 3. Create the Port Scanner Script:  
 
 
+
+### Explanation:
+
+- **Triple Backticks**: The triple backticks are used to enclose your code block, which ensures it will be properly formatted when rendered in GitHub.
+- **`python` Language Tag**: Adding `python` right after the opening triple backticks enables syntax highlighting for Python, making it easier to read.
+- **Markdown Structure**: You can explain your project, the code, and how to use it before and after the code block.
+
+### Final Markdown Example:
+
+Here is what it will look like in your `README.md` file:
+
+```markdown
+## Port Scanner
+
+This project is a simple **Port Scanner** implemented in Python. It scans a given IP address to identify open ports within a specified range.
+
+### Code
+
+```python
 import socket
 import threading
 
