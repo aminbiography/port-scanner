@@ -26,7 +26,6 @@ sudo apt install python3
 import socket
 import threading
 
-# Function to check if a port is open
 def scan_port(ip, port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     socket.setdefaulttimeout(1)  # Timeout after 1 second
@@ -35,7 +34,6 @@ def scan_port(ip, port):
         print(f"Port {port} is OPEN")
     sock.close()
 
-# Function to scan ports within a given range
 def scan_ports(ip, start_port, end_port):
     print(f"Scanning IP: {ip}")
     threads = []
@@ -47,7 +45,6 @@ def scan_ports(ip, start_port, end_port):
     for thread in threads:
         thread.join()  # Wait for all threads to complete
 
-# Main function
 if __name__ == "__main__":
     target_ip = input("Enter the IP address to scan: ")
     start_port = int(input("Enter the start port: "))
