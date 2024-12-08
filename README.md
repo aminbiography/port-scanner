@@ -1,6 +1,7 @@
 Live URL:   https://aminbiography.github.io/port-scanner/
 
 
+
 <h1>Project Overview: Port Scanner</h1>
 A port scanner is a tool that checks for open ports on a machine. Open ports can sometimes expose vulnerabilities in the system, so it’s important to identify them to understand the security posture of a system.
 
