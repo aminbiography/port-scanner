@@ -22,18 +22,16 @@ sudo apt install python3
 
 
 02. Understand Socket Programming: In this project, you will use Python’s socket library to interact with the network.
-3. Create the Port Scanner Script:  
+   
+03. Create the Port Scanner Script:  
 
-
-
-```markdown
 ## Port Scanner
 
 This project is a simple **Port Scanner** implemented in Python. It scans a given IP address to identify open ports within a specified range.
 
-### Code
+### Code Python
 
-```python
+```
 import socket
 import threading
 
